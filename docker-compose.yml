@@ -17,7 +17,6 @@ services:
     networks:
       - TVU_Network
       
-
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin
