@@ -16,6 +16,7 @@ services:
     restart: always
     networks:
       - TVU_Network
+      
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
