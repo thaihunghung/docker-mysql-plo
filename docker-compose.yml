@@ -14,7 +14,7 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
       - ./tvu.sql:/docker-entrypoint-initdb.d/TVU.sql:ro
-      - ./my.txt:/etc/mysql/my.cnf:ro
+      - ./my.cnf:/etc/mysql/my.cnf:ro
     restart: unless-stopped
     command: 
       - --log-bin-trust-function-creators=1
