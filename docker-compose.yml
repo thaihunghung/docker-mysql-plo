@@ -47,3 +47,6 @@ services:
 networks:
   TVU_Network:
     driver: bridge
+
+volumes:
+  mysql_data:
